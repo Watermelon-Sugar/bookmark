@@ -24,6 +24,9 @@ a {
 #headerlinks {
     width: 40%;
 }
+#headerlinks a:hover {
+    color: #f12e2e;
+}
 .button {
     background-color: #fa5757;
     border-radius: 7px;
@@ -90,6 +93,16 @@ a {
     font-family: 'Rubik', sans-serif;
     display: inline-block;
     font-size: 1rem;
+}
+.chromebtn:hover {
+    background-color: white;
+    border: 2px solid #5368df;
+    color: #5368df;
+}
+.firefoxbtn:hover {
+    background-color: white;
+    border: 2px solid #000;
+    color: #000;
 }
 #two-two {
     width: 50%;
@@ -209,7 +222,7 @@ box-shadow: 1px 3px 10px rgb(0 0 0 / 10%);
 }
 .info:hover {
     background-color: white;
-    border: px solid #5368df;
+    border: 2px solid #5368df;
     color: #5368df;
 }
 #five {
